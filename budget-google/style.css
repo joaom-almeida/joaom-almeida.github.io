@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header a{
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+}
+
+.header-section {
+    margin: 0 1vw 0 1vw;
+}
+
+.header-section img {
+    border-radius: 5px;
+}
+
+.header-section img:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#menu-icon{
+    width: 30px;
+    border: 1px solid;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85%;
+    gap: 3vh;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-form button{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
+
+#search-text {
+    display: block;
+    margin: 3vh 0vh 3vh 0;
+    height: 34px;
+    font-size: 16px;
+    width: 40vw;
+    border-radius: 25px;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+#search-form p{
+    margin-top: 3vh;
+}
+
+.submit-button, .lucky-button {
+    min-width: 54px;
+    height: 36px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+footer {
+    height: 10%;
+}
+
+footer a, footer p {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+.footer-section {
+    height: 50%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw 0 2vw;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section li {
+    display: inline;
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+#first-footer{
+    border-bottom: 1px solid #dadce0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
